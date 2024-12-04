@@ -45,3 +45,37 @@ main{
     font-weight: bold;
 
 }
+footer{
+    background-color: white;
+    color: black;
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.footer-section{
+    margin: 10px;
+}
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li{
+    margin:5px 0;
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
