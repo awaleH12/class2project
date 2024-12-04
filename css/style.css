@@ -78,4 +78,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
+}
+.footer-bottom{
+    text-align: center;
+    margin:  10px 0;
+    list-style: none;
 }
