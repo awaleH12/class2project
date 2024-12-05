@@ -48,8 +48,9 @@ main{
 footer{
     background-color: white;
     color: black;
-    padding: 20px 0px;
+    padding: 10px 5px;
     text-align: center;
+    width: 100%;
 }
 .footer-content{
     display: flex;
@@ -84,6 +85,6 @@ footer{
 }
 .footer-bottom{
     text-align:right;
-    margin:  10px 20px;
+    margin:  10px 20px 0px 10px;
     list-style: none;
 }
