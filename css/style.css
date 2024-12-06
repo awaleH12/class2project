@@ -188,6 +188,7 @@
     padding-top: 2rem;
     text-decoration: none;
     font-weight: bold;
+
 }
 #case-study {
     display: flex;
@@ -271,3 +272,48 @@
     font-weight: bold;
   }
 /* ==== footer ==== */
+}
+footer{
+    background-color: white;
+    color: black;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.footer-section{
+    margin: 10px;
+}
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li{
+    margin:5px 0;
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-section social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ padding: 20px;
+    color: black;
+    margin-left: 0px 20px;
+}
+.footer-bottom{
+    text-align:right;
+    margin:  10px 20px 0px 10px;
+    list-style: none;
+}
+
