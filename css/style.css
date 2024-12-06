@@ -1,15 +1,160 @@
-body, h1, h2, p, a{
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-body{
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-main{
+.my-body{
     width: 100%;
 }
+.h3-blogs{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #222;
+}
+.blogs{
+    width: 90%;
+    /* padding: 0 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blog{
+    width: 370px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog img{
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.p-blogs{
+    margin-top: 10px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* .div {
+    height: 100vh;
+    background: url('/class2project/img/pic1.jpg') center/cover no-repeat, 
+                rgba(4, 33, 196, 0.7); 
+    background-blend-mode: overlay; 
+} */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url('/img/coo.jpg') center/cover no-repeat, 
+                rgba(254, 254, 255, 0.8); 
+    background-blend-mode: overlay; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 90px;
+    /* background: red; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    
+}
+.search .fa-solid{
+    margin-top: 10px;
+}
+.search p{
+    margin-left: 12px;
+}
+.left-side .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+.img-logo{
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.right-side ul{
+    display: flex;
+    list-style: none;
+}
+.right-side ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+}
+
+/* hero content */
+.hero-content h1{
+    font-size: 70px;
+    margin: 4% 25% 0 25%;
+}
+.hero-content h1 span{
+    color: blue;
+}
+.hero-content .hero-text{
+    margin: 2% 25% 6% 25%;
+    font-size: 14px;
+
+}
+.hero-content a{
+    background: blue;
+    padding: 13px 20px;
+    margin:0 13%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.fa-twitter{
+    margin:0 20px;
+    font-size: 20px;
+}
+.fa-facebook-f{
+     margin-left: 5%;
+
+}
+
+/* ==== Sections ==== */
+  body, h1, h2, h3, p, a, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    width: 100%;
+  }
+/* ==== Services ==== */
 #services{
     background: linear-gradient(45deg, #00aaff, #92086d);
     color: white;
@@ -44,6 +189,89 @@ main{
     text-decoration: none;
     font-weight: bold;
 
+}
+#case-study {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+  }
+  .case-study-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .case-study-content h2{
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+  .case-study-content h3{
+    font-size: 17px;
+    margin-bottom: 1rem;
+  }
+  .case-study-content a {
+    margin-top: 2rem;
+    color: #0012ff;
+    text-decoration: none;
+    border: 2px solid #0012ff;
+    padding: 0.5rem 0.5rem;
+    border-radius: 30px;
+    text-align: center;
+    width: 160px;
+  }
+  .case-study-image {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .case-study-image img {
+    max-width: 100%;
+    height: 100%;
+  }
+  #contact {
+    background: url('/img/intrior\ desgning.jpg') center/cover no-repeat, 
+    rgba(4, 33, 196, 1);
+    background-blend-mode: overlay;
+    color: white;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact form {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+  }
+  #contact input {
+    padding: 0.5rem;
+    width: 250px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: white;
+    outline: none;
+  }
+  #contact button {
+    padding: 0.2rem 2rem;
+    background: white;
+    color: #0012ff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: bold;
+  }
+/* ==== footer ==== */
 }
 footer{
     background-color: white;
@@ -88,3 +316,4 @@ footer{
     margin:  10px 20px 0px 10px;
     list-style: none;
 }
+
